@@ -1,0 +1,132 @@
+body{
+  overflow-x: hidden;
+  color: #505962;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+/*--NavBar Style--*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, .6);
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #99f2c8;
+}
+/*--slider--*/
+.carousel-item{
+  height: 100vh;
+}
+
+#about{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%; 
+  color:black;
+}
+.feature-box p{
+  color: #8f8f8f;
+}
+
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+
+.underline{
+  border-style: none;
+  border-top: dotted;
+  border-color: #99f2c8;
+  border-bottom: none;
+  border-width: 7px;
+  padding-bottom: 10px;
+  width: 15%;
+}
+.jumbotron{
+  border-radius: 0;
+  padding-right: 0;
+  text-align: center;
+}
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.section-links{
+  color: #505962;
+  text-decoration: none;
+}
+.section-links:hover{
+  color: #ef8172;
+  text-decoration: none;
+}
+.Gallery-image{
+  overflow: hidden;
+}
+.Gallery-image img{
+  max-width: 100%;
+  transition: transform .5s ease;
+}
+.Gallery-image img:hover{
+  transform: scale(1.2);
+  cursor: zoom-in;
+}
+.no-padding .column{
+  padding: 0;
+}
+#collection{
+  margin: 200px 0 100px 0;
+  text-align: center;
+  box-shadow: black;
+  height: 400px;
+}
+.box{
+  height: 200px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.box::-webkit-scrollbar{
+  display: none;
+}
+.card-a{
+  display: inline-block;
+  height:80%;
+  margin-right: 2rem;
+  width: 300px;
+  background-color: #ff4c68;
+  padding-bottom: 50px;
+  box-shadow: 20px 20px 20px currentColor;
+}
+
+#contact{
+  padding: 40px 0;
+}
+.social-links{
+  width: 100%;
+}
+.ficons{
+  color: #ef8172;
+  padding: 1.2rem;
+}
+.ficons:hover{
+  color: #ff4c68;
+}
